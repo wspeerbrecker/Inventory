@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840A466C1B5C2F6700960F9A /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 840A466B1B5C2F6700960F9A /* default.png */; };
+		840A466E1B5C31EA00960F9A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 840A466D1B5C31EA00960F9A /* Default@2x.png */; };
+		844DB7A11B993374000D8E22 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DB7A01B993374000D8E22 /* Item.swift */; };
+		849232311B5D2B2D009F7407 /* ZoomImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849232301B5D2B2D009F7407 /* ZoomImageViewController.swift */; };
+		84A6A0221B63D7C800DD2F62 /* photoThumbnailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6A0211B63D7C800DD2F62 /* photoThumbnailCollectionViewCell.swift */; };
+		84C2363A1B99E5F6006216B8 /* ItemImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C236391B99E5F6006216B8 /* ItemImage.swift */; };
 		84DB2CA81B57EBFF00BA51F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB2CA71B57EBFF00BA51F3 /* AppDelegate.swift */; };
 		84DB2CAB1B57EBFF00BA51F3 /* Inventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84DB2CA91B57EBFF00BA51F3 /* Inventory.xcdatamodeld */; };
-		84DB2CAD1B57EBFF00BA51F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB2CAC1B57EBFF00BA51F3 /* ViewController.swift */; };
+		84DB2CAD1B57EBFF00BA51F3 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB2CAC1B57EBFF00BA51F3 /* InventoryViewController.swift */; };
 		84DB2CB01B57EBFF00BA51F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DB2CAE1B57EBFF00BA51F3 /* Main.storyboard */; };
 		84DB2CB21B57EBFF00BA51F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DB2CB11B57EBFF00BA51F3 /* Images.xcassets */; };
 		84DB2CB51B57EBFF00BA51F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DB2CB31B57EBFF00BA51F3 /* LaunchScreen.xib */; };
 		84DB2CC11B57EBFF00BA51F3 /* InventoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB2CC01B57EBFF00BA51F3 /* InventoryTests.swift */; };
+		84DB2CCD1B57FF9100BA51F3 /* TREX450PRO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84DB2CCC1B57FF9100BA51F3 /* TREX450PRO.jpg */; };
+		84DB2CCF1B5804F000BA51F3 /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB2CCE1B5804F000BA51F3 /* ItemDetailsViewController.swift */; };
+		84E95BC71B5DEAB40086B7EA /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E95BC61B5DEAB40086B7EA /* GalleryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +36,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		840A466B1B5C2F6700960F9A /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		840A466D1B5C31EA00960F9A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		844DB7A01B993374000D8E22 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		849232301B5D2B2D009F7407 /* ZoomImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomImageViewController.swift; sourceTree = "<group>"; };
+		84A6A0211B63D7C800DD2F62 /* photoThumbnailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photoThumbnailCollectionViewCell.swift; sourceTree = "<group>"; };
+		84C236391B99E5F6006216B8 /* ItemImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemImage.swift; sourceTree = "<group>"; };
 		84DB2CA21B57EBFF00BA51F3 /* Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DB2CA61B57EBFF00BA51F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84DB2CA71B57EBFF00BA51F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84DB2CAA1B57EBFF00BA51F3 /* Inventory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Inventory.xcdatamodel; sourceTree = "<group>"; };
-		84DB2CAC1B57EBFF00BA51F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84DB2CAC1B57EBFF00BA51F3 /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
 		84DB2CAF1B57EBFF00BA51F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84DB2CB11B57EBFF00BA51F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84DB2CB41B57EBFF00BA51F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		84DB2CBA1B57EBFF00BA51F3 /* InventoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InventoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DB2CBF1B57EBFF00BA51F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84DB2CC01B57EBFF00BA51F3 /* InventoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryTests.swift; sourceTree = "<group>"; };
+		84DB2CCC1B57FF9100BA51F3 /* TREX450PRO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TREX450PRO.jpg; sourceTree = "<group>"; };
+		84DB2CCE1B5804F000BA51F3 /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
+		84E95BC61B5DEAB40086B7EA /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +97,21 @@
 		84DB2CA41B57EBFF00BA51F3 /* Inventory */ = {
 			isa = PBXGroup;
 			children = (
+				84DB2CA91B57EBFF00BA51F3 /* Inventory.xcdatamodeld */,
+				844DB7A01B993374000D8E22 /* Item.swift */,
+				84C236391B99E5F6006216B8 /* ItemImage.swift */,
+				840A466D1B5C31EA00960F9A /* Default@2x.png */,
+				840A466B1B5C2F6700960F9A /* default.png */,
+				84DB2CCC1B57FF9100BA51F3 /* TREX450PRO.jpg */,
 				84DB2CA71B57EBFF00BA51F3 /* AppDelegate.swift */,
-				84DB2CAC1B57EBFF00BA51F3 /* ViewController.swift */,
+				84DB2CAC1B57EBFF00BA51F3 /* InventoryViewController.swift */,
+				84DB2CCE1B5804F000BA51F3 /* ItemDetailsViewController.swift */,
+				84A6A0211B63D7C800DD2F62 /* photoThumbnailCollectionViewCell.swift */,
+				849232301B5D2B2D009F7407 /* ZoomImageViewController.swift */,
+				84E95BC61B5DEAB40086B7EA /* GalleryViewController.swift */,
 				84DB2CAE1B57EBFF00BA51F3 /* Main.storyboard */,
 				84DB2CB11B57EBFF00BA51F3 /* Images.xcassets */,
 				84DB2CB31B57EBFF00BA51F3 /* LaunchScreen.xib */,
-				84DB2CA91B57EBFF00BA51F3 /* Inventory.xcdatamodeld */,
 				84DB2CA51B57EBFF00BA51F3 /* Supporting Files */,
 			);
 			path = Inventory;
@@ -195,8 +222,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840A466E1B5C31EA00960F9A /* Default@2x.png in Resources */,
 				84DB2CB01B57EBFF00BA51F3 /* Main.storyboard in Resources */,
 				84DB2CB51B57EBFF00BA51F3 /* LaunchScreen.xib in Resources */,
+				84DB2CCD1B57FF9100BA51F3 /* TREX450PRO.jpg in Resources */,
+				840A466C1B5C2F6700960F9A /* default.png in Resources */,
 				84DB2CB21B57EBFF00BA51F3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,8 +245,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DB2CAD1B57EBFF00BA51F3 /* ViewController.swift in Sources */,
+				84E95BC71B5DEAB40086B7EA /* GalleryViewController.swift in Sources */,
+				844DB7A11B993374000D8E22 /* Item.swift in Sources */,
+				849232311B5D2B2D009F7407 /* ZoomImageViewController.swift in Sources */,
+				84DB2CAD1B57EBFF00BA51F3 /* InventoryViewController.swift in Sources */,
+				84A6A0221B63D7C800DD2F62 /* photoThumbnailCollectionViewCell.swift in Sources */,
+				84DB2CCF1B5804F000BA51F3 /* ItemDetailsViewController.swift in Sources */,
 				84DB2CAB1B57EBFF00BA51F3 /* Inventory.xcdatamodeld in Sources */,
+				84C2363A1B99E5F6006216B8 /* ItemImage.swift in Sources */,
 				84DB2CA81B57EBFF00BA51F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +449,7 @@
 				84DB2CC61B57EBFF00BA51F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84DB2CC71B57EBFF00BA51F3 /* Build configuration list for PBXNativeTarget "InventoryTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +458,7 @@
 				84DB2CC91B57EBFF00BA51F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
